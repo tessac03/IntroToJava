@@ -1,3 +1,15 @@
+/* *************************************************************************************
+ * Description: Takes in two double command-line arguments—the duration of 
+ * the simulation (Τ) and the simulation time increment (Δt).
+ * Reads in the details of the universe to be simulated from standard input using StdIn, 
+ * using several parallel arrays to store the data. (planets.txt file)
+ * Simulates the universe, starting at time t = 0.0, and continuing in Δt increments 
+ * as long as t < Τ.
+ * Animates the results to standard drawing using StdDraw using the starfield.jpg,
+ * earth.gif, mars.gif, mercury.gif, sun.gif, and venus.gif.
+ * Prints the state of the universe at the end of the simulation 
+ * in the same format as the input file to standard output using StdOut
+ ************************************************************************************ */
 
 import java.util.*;
 import java.io.*;
@@ -93,6 +105,7 @@ public class NBody {
             	}
             	
             	//Draw the output at time
+                //Update the two file paths accordingly to point to the location of the files used
             	StdDraw.picture(0, 0, "/Users/tessacotron/Documents/workspace/IntroCS/nbody/starfield.jpg");
             	for(int j=0; j<n; j++){
             		StdDraw.picture(x[j], y[j], "/Users/tessacotron/Documents/workspace/IntroCS/nbody/"+image[j]);
