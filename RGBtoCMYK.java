@@ -1,6 +1,6 @@
 /* *************************************************************************************
  * Description: Takes the specified levels of red, green, and blue, for a color then
- *  converts these into cyan, magenta, yellow, and black format.
+ * converts these into cyan, magenta, yellow, and black format.
  ************************************************************************************ */
 
 public class RGBtoCMYK {
