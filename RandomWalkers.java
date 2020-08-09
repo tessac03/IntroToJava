@@ -1,6 +1,6 @@
 /* *************************************************************************************
  * Description: Takes two integer command line argument n and trials, then simulates 
- * trials many random walks each of n-steps on a graph beginning at the origin.
+ * 'trials' many random walks each of n-steps on a graph beginning at the origin.
  * At each trial the code computes the squared distance from the origin and the final
  * point in the random walk which is used at the end of all of the trials to compute
  * the mean squared distance.
@@ -16,10 +16,10 @@ public class RandomWalkers {
         double totalSqrDist=0;
         
         //For loop to generate trials many random walks and then add the squared 
-        //distance of each walk to the total sum of totalSqeDist
+        //distance of each walk to the total sum of totalSqrDist
         for(int i=trials; i>0; i--){
             int j=n;
-            //while loop to generate a random walk of n many steps
+            //While loop to generate a random walk of n many steps
             while(j>0){
                 double r=Math.random();
                 if(r<0.25) x--;
