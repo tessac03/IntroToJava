@@ -1,6 +1,7 @@
 /* *************************************************************************************
- * Description: Take a positive integer input from the command line argument and compute the
- * number of times it can be divided by 2 before it is less than 1.
+ * Description: Take a positive integer input from the command line argument 
+ * and compute number of times it can be divided by 2 before it is less than 1.
+ * Print an error message if the input is negative.
  ************************************************************************************ */
 
 public class Bits {
