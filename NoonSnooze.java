@@ -1,6 +1,7 @@
 /* *************************************************************************************
  * Description: Takes an integer command line argument snooze and prints out the time
  * of day it will be snooze many minutes after 12:00pm.
+ * Assumes that the input is a non-negative integer.
  ************************************************************************************ */
 
 public class NoonSnooze {
