@@ -1,6 +1,6 @@
 /* *************************************************************************************
  * Description: Takes integer command line argument n and recursively plots a Sierpinski 
- * triangle of order n to standard drawing.
+ * triangle of order n using Standard Drawing.
  ************************************************************************************ */
 
 public class Sierpinski {
