@@ -1,5 +1,5 @@
 /* *************************************************************************************
- * Description: Prints out classic "Hello World" message.
+ * Description: Prints out "Hello World" message.
  ************************************************************************************ */
 public class HelloWorld {
 	public static void main(String[] args){
