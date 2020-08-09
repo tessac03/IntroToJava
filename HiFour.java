@@ -1,6 +1,6 @@
 /* *************************************************************************************
  * Description: Takes four names as command line arguments and prints them out in 
- * reverse ordered as a proper sentence.
+ * reverse order as a proper sentence.
  ************************************************************************************ */
 public class HiFour {
 	public static void main (String[] args){
