@@ -1,5 +1,5 @@
 /* *************************************************************************************
- * Description: Takes three integer command line arguments and determines if the were
+ * Description: Takes three integer command line arguments and determines if they were
  * input using either strictly increasing or strictly decreasing order. Assumes the 
  * inputs are integers.
  ************************************************************************************ */
