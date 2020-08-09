@@ -1,3 +1,8 @@
+/* *************************************************************************************
+ * Description: A library of static methods that performs various geometric transforms
+ * on polygons.
+ ************************************************************************************ */
+
 public class Transform2D {
     // Returns a new array object that is an exact copy of the given array.
     // The given array is not mutated.
